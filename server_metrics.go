@@ -3,7 +3,7 @@ package grpc_prometheus
 import (
 	"context"
 
-	"github.com/grpc-ecosystem/go-grpc-prometheus/packages/grpcstatus"
+	"github.com/netsec-ethz/go-grpc-prom/packages/grpcstatus"
 	prom "github.com/prometheus/client_golang/prometheus"
 
 	"google.golang.org/grpc"

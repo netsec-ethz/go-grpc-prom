@@ -12,8 +12,8 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/grpc-ecosystem/go-grpc-prometheus"
-	pb "github.com/grpc-ecosystem/go-grpc-prometheus/examples/grpc-server-with-prometheus/protobuf"
+	grpc_prometheus "github.com/netsec-ethz/go-grpc-prom"
+	pb "github.com/netsec-ethz/go-grpc-prom/examples/grpc-server-with-prometheus/protobuf"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

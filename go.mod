@@ -1,4 +1,4 @@
-module github.com/grpc-ecosystem/go-grpc-prometheus
+module github.com/netsec-ethz/go-grpc-prom
 
 require (
 	github.com/golang/protobuf v1.2.0
@@ -10,3 +10,5 @@ require (
 )
 
 go 1.13
+
+replace github.com/grpc-ecosystem/go-grpc-prometheus => github.com/netsec-ethz/go-grpc-prom v1.2.0
