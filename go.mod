@@ -10,5 +10,3 @@ require (
 )
 
 go 1.13
-
-replace github.com/grpc-ecosystem/go-grpc-prometheus => github.com/netsec-ethz/go-grpc-prom v1.2.0
